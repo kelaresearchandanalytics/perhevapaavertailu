@@ -1,0 +1,21 @@
+---
+title: "perhevapaavertailu"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{minifying}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+`perhevapaavertailu` on `shiny`-verkkosovellus, jonka avulla käyttäjä voi laskea perhe-etuuksien määriä sekä omien tulojen että vapaiden jakamisen perusteella 1.6.2022 voimaan tulevan uuden lainsäädännön puitteissa. 
+
+Sovelluksen taustajärjestelmä koostuu useista funktioista sekä vuositason verotuksen parametreistä. Tässä dokumentissa tullaan kuvaamaan nuo parametrit sekä sovelluksen taustajärjestelmän funktiot.
+
+

@@ -1,0 +1,42 @@
+Package: perhevapaavertailu
+Title: A shiny application for calculating how sharing family leave between parents can affect your family income
+Version: 1.0.0
+Date: 2024-06-28
+Authors@R: c(
+    person("Eeva-Maria", "Keski-Säntti", , "eeva-maria.keski-santti@kela.fi", role = c("cre", "aut")),
+    person("Petri", "Eskelinen", , "petri.eskelinen@kela.fi", role = "aut"),
+    person("Tapio", "Isolankila", , "tapio.isolankila@kela.fi", role = "aut"),
+    person("Markus", "Kainu", , "markus.kainu@kela.fi", role = "aut",
+           comment = c(ORCID = "0000-0003-1376-503X"))
+  )
+Description: You can use this calculator to give you an idea of how sharing family leave between parents can affect your family income. 
+    This calculator is intended for working parents whose child was born on or after 4 September 2022. Please note that the results are only indicative.
+License: MIT + file LICENSE
+Imports: 
+    bslib,
+    bsicons,
+    config (>= 0.3.1),
+    dplyr,
+    ggplot2,
+    glue,
+    golem (>= 0.3.1),
+    shiny.i18n,
+    metathis,
+    patchwork,
+    plyr,
+    readr,
+    shiny (>= 1.7.1),
+    shinycssloaders,
+    shinyFeedback,
+    shinyjs,
+    yaml
+Suggests: 
+    knitr,
+    rmarkdown,
+    spelling,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Encoding: UTF-8
+Language: en-US
+LazyData: true
+RoxygenNote: 7.3.1

@@ -1,0 +1,50 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# perhevapaavertailu
+
+`perhevapaavertailu` on `R`-kielen `shiny`-frameworkilla ohjelmoitu verkkosovellus, jonka avulla käyttäjä voi laskea perhe-etuuksien määriä sekä omien tulojen että vapaiden jakamisen perusteella 1.6.2022 voimaan tulevan uuden lainsäädännön puitteissa.
+
+Sovellus internetissa: <https://perhevapaavertailu.kela.fi/>
+
+## Kehittäminen
+
+Voit kloonata lähdekoodin Githubista: <https://github.com/kelaresearchandanalytics/perhevapaavertailu> ja käynnistää sovelluksen paikallisesti `golem::run_dev()`.
+
+
+Vaihtoehtoisesti voi asentaa sovelluksen R-pakettina
+
+``` r
+remotes::install_github("kelaresearchandanalytics/perhevapaavertailu")
+```
+
+ja käynnistää laskurin paikallisesti
+
+```{r, eval = FALSE}
+perhevapaavertailu::run_app()
+```
+
+
+## Lähdeviite
+
+```{r}
+citation("perhevapaavertailu")
+```
+
+
+## Lisenssi
+
+Ks. [LICENSE.md](LICENSE.md)
+

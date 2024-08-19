@@ -1,0 +1,120 @@
+/*-- scss:defaults --*/
+/*$font-family-sans-serif: "Inter";/
+/*$font-family-monospace: 'B612 Mono';*/
+/*-- scss:rules --*/
+/* lato-regular - latin-ext_latin */
+@font-face {
+  font-display: swap;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/lato/lato-v24-latin-regular.woff2") format("woff2"), url("./fonts/lato/lato-v24-latin-regular.woff2") format("woff2");
+}
+
+/* ibm-plex-mono-regular - latin-ext_latin */
+@font-face {
+  font-display: swap;
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/ibm-plex-mono/ibm-plex-mono-v19-latin-regular.woff2") format("woff2"), url("./fonts/ibm-plex-mono/ibm-plex-mono-v19-latin-regular.woff2") format("woff2");
+}
+
+/* noto-sans-regular - latin-ext_latin */
+@font-face {
+  font-display: swap;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/noto-sans/noto-sans-v34-latin-regular.woff2") format("woff2"), url("./fonts/noto-sans/noto-sans-v34-latin-regular.woff2") format("woff2");
+}
+
+/*-- scss:uses --*/
+pre.sourceCode {
+  padding: 0;
+  font-family: "Noto Sans", sans-serif;
+  font-size: .7rem;
+}
+
+body {
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+}
+
+h1, .h1 {
+  font-size: 2rem;
+  font-family: "Noto Sans", sans-serif;
+}
+
+h2, .h2 {
+  font-size: 1.4rem;
+  font-family: "Noto Sans", sans-serif;
+}
+
+h3, .h3 {
+  font-size: 1.2rem;
+  font-family: "Noto Sans", sans-serif;
+}
+
+h4, .h4 {
+  font-size: 1rem;
+  font-family: "Noto Sans", sans-serif;
+}
+
+h5, .h5 {
+  font-size: 1rem;
+  font-family: "Noto Sans", sans-serif;
+}
+
+h6, .h6 {
+  font-size: 1rem;
+  font-family: "Noto Sans", sans-serif;
+}
+
+code {
+  font-family: "Noto Sans", sans-serif;
+  font-size: .7rem;
+}
+
+.navbar.navbar-inverse {
+  background-color: #003580 !important;
+  border-top: 3px solid #FDB916;
+}
+
+.leaflet-container {
+  background: #FFF;
+  outline: 0;
+}
+
+.bslib-sidebar-layout > .sidebar {
+  background: #FFF;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.15);
+}
+
+.bd-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 4rem;
+  /* Footer height */
+}
+
+.footer-copyright-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-bottom: 1rem;
+  padding-top: 1.5rem;
+}
+
+.footer .footer-copyright-links {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+/*.shiny-plot-output {
+  background-color: #216B7288;
+  height: 400px;
+  width: 100%;
+} */

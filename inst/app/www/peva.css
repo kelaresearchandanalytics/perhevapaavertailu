@@ -1,0 +1,562 @@
+
+#icon-row {
+  display: flex;
+  justify-content: right;
+  padding: 2px;
+}
+
+.selectize-input {
+  border: 0px solid #ced4da;
+  width: 100%;
+  background-color: #003580 !important
+}
+
+
+.selectize-dropdown {
+  border-color: white;
+  box-shadow:none;
+  background-color: #FFF !important
+}
+
+select:active, select:hover {
+  outline-color: red
+}
+
+/*
+
+
+
+
+font-family: 'Lato', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+*/
+
+/*beta-kela.fi*/
+
+strong {
+  font-weight: 700!important;
+}
+
+.card-class-head {
+  min-height: 150px;
+}
+
+.card-class-body {
+  min-height: 210px;
+}
+
+
+.card-class-footer {
+  min-height: 400px;
+}
+
+.card-peva {
+  margin-top: 10px;
+}
+
+.peva-card-title {
+  margin-top: 10px;
+}
+
+.peva-list-item {
+  padding-left: 15px;
+  list-style-type: circle;
+}
+
+/*
+.form-control:focus {
+  border: 3px solid #003580;
+}
+
+.btn:focus {
+  border: 3px solid #003580;
+}
+
+.accordion-button:focus {
+  border: 3px solid #003580;
+}
+*/
+
+/*a:focus,
+button:focus {
+  /*background-color:#fff!important*/
+  /*border: 3px solid #003580;
+  /*box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);*/
+  /*
+}
+*/
+
+.tab-kela {
+  background-color: #f5f5f5;
+}
+
+
+.input-panel-shiny-kela {
+  background-color: #f5f5f5; 
+  padding:10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,.15);
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.input-panel-shiny-kela-noflex {
+  background-color: #f5f5f5; 
+  padding:10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,.15);
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+
+
+.navbar-shiny-kela {
+  background-color: #003580;
+  height: 3.5rem;
+}
+
+
+.mainbar-primary {
+  background-color: #003580;
+}
+  @media (min-width: 768px)
+.mainbar {
+  height: 4rem;
+  padding: 0 1rem;
+}
+.mainbar {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,.15);
+  display: flex;
+  height: 3.5rem;
+  padding: 0 .5rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+body {
+  color: #393939;
+  font-family: Lato,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  font-family: sans-serif;
+  line-height: 1.15;
+}
+
+
+.blog-header, .blog-post, .blog-pagination {
+  margin-bottom: 2rem;
+}
+
+/* Make sure the image size is reasonable. */
+.blog-post img {
+  max-width: 100%;
+}
+
+.container_1280 {
+        max-width: 1280px; 
+        margin: auto;
+}
+
+.well {
+  background-color: #FFF;
+  }
+
+img[src$='#center']
+{
+    display: block;
+    margin: 0.7rem auto; /* you can replace the vertical '0.7rem' by
+                            whatever floats your boat, but keep the
+                            horizontal 'auto' for this to work */
+    /* whatever else styles you fancy here */
+}
+
+img[src$='#floatleft']
+{
+    float:left;
+    margin: 0.7rem;      /* this margin is totally up to you */
+    /* whatever else styles you fancy here */
+}
+
+img[src$='#floatright']
+{
+    float:right;
+    margin: 0.7rem;      /* this margin is totally up to you */
+    /* whatever else styles you fancy here */
+}
+
+/*KELA-SPESIFIT*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  border-top: 5px solid #fdb916;
+  border-bottom: 5px solid #fdb916;
+  margin-bottom: 1rem;
+}
+
+p {
+  padding-top: 10px;
+}
+
+
+.yellow-line {
+  border-bottom: 1px solid #fdb916;
+}
+
+.yellow-line-3 {
+  border-bottom: 3px solid #fdb916;
+}
+
+
+.smaller-text {
+  font-size: .8em;
+}
+
+
+.bg-kela {
+  background-color:#f3f5f9!important}
+
+ .bg-kela-footer {
+  background-color:#00347f!important}
+
+
+
+.container_960 {
+  max-width: 1080px; 
+  margin: auto;
+}
+
+.laake-link {
+  color: #0f73a9;
+}
+
+a {
+    color: #003580;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+.btn-outline-kela{color:#003580;border-color:#003580}
+
+
+code {
+    font-size: 87.5%;
+    color: #b04c2d;
+    word-break: break-word;
+}
+
+
+.bootstrap-select>.dropdown-toggle.bs-placeholder, .bootstrap-select>.dropdown-toggle.bs-placeholder:active, .bootstrap-select>.dropdown-toggle.bs-placeholder:focus, .bootstrap-select>.dropdown-toggle.bs-placeholder:hover {
+    color: #000000;
+}
+
+.navbar-kela .navbar-brand{
+  color:rgba(0,0,0,.9)
+}
+  
+.navbar-kela .navbar-brand:focus,
+.navbar-kela .navbar-brand:hover{
+  color:rgba(0,0,0,.9)
+}
+
+.navbar-kela .navbar-nav .nav-link{
+  background-color: rgba(255, 255, 255, .4);
+  color: #003580;
+}
+
+.navbar-kela .navbar-text a{
+  color:rgba(0,0,0,.9)
+}
+
+
+
+.nav-pills>li.active>a, 
+.nav-pills>li.active>a:hover, 
+.nav-pills>li.active>a:focus {
+  color: #ffffff;
+  background-color: #80004f;
+}
+
+
+.navbar-kela{
+/*border-top: 5px solid #FDB916;*/
+padding-top: 15px;
+padding-bottom: 15px;
+border-bottom: 1px solid #00347f;
+background-color: rgba(255, 255, 255, .9);
+color: #003580;
+}
+
+
+.shiny-plot-output {
+  /*border: 1px solid rgba(0, 0, 0, 0.125);*/
+margin-top: 20px;
+margin-bottom: 20px;
+height: auto;
+border:3px solid #fff;
+/*box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+-moz-box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+-webkit-box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+-khtml-box-shadow: 0 4px 8px rgba(0,0,0,0.15);*/
+ 
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/lato/lato-v24-latin-regular.woff2') format('woff2'), url('./fonts/lato/lato-v24-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: url('./fonts/lato/lato-v24-latin-italic.woff2') format('woff2'), url('./fonts/lato/lato-v24-latin-italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./fonts/lato/lato-v24-latin-300.woff2') format('woff2'), url('./fonts/lato/lato-v24-latin-300.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Lato';
+  font-style: bold;
+  font-weight: 700;
+  src: url('./fonts/lato/lato-v24-latin-700.woff2') format('woff2'), url('./fonts/lato/lato-v24-latin-700.woff2') format('woff2');
+}
+
+
+
+
+/* ibm-plex-mono-regular - latin-ext_latin */
+@font-face {
+  font-display: swap;
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/ibm-plex-mono/ibm-plex-mono-v19-latin-regular.woff2') format('woff2'), url('./fonts/ibm-plex-mono/ibm-plex-mono-v19-latin-regular.woff2') format('woff2');
+}
+
+/* noto-sans-regular - latin-ext_latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/noto-sans/noto-sans-v34-latin-regular.woff2') format('woff2'), url('./fonts/noto-sans/noto-sans-v34-latin-regular.woff2') format('woff2');
+}
+
+
+/*Otsikko-koot*/
+
+.display-4 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+h1 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 32px;
+  color: #003580;
+}
+
+h2 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 28px;
+  color: #003580;
+}
+
+h3 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 24px;
+  color: #003580;
+}
+
+h4 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 20px;
+  color: #003580;
+}
+
+
+h5 {
+  font-family: 'Noto Sans', sans-serif;
+  margin-top: 0px;
+  color: #003580;
+}
+
+.footer2 {
+padding-top: 5px;
+padding-bottom: 0px;
+/*  background-color: #00347f;
+color: #fff;
+text-decoration: none;
+border-bottom: 5px solid #FDB916; */
+}
+
+
+/*.plot {
+margin-top: 20px;
+margin-bottom: 20px;
+height: auto;
+border:2px solid #fff;
+box-shadow: 2px 2px 3px #ccc;
+-moz-box-shadow: 2px 2px 3px #ccc;
+-webkit-box-shadow: 2px 2px 3px #ccc;
+-khtml-box-shadow: 2px 2px 3px #ccc;
+}*/
+
+
+
+
+/*
+.badge-kela {
+    font-weight: 400;
+   color: #000000;
+    background-color: #fffe;
+}
+
+.alert-secondary-kela {
+  background-color: #BFCDDF;
+  color: black;
+  text-align: right;
+  padding-right: 5px;
+}
+
+
+.card {
+position: relative;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+min-width: 0;
+word-wrap: break-word;
+background-color: #fff;
+background-clip: border-box;
+border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card > hr {
+margin-right: 0;
+margin-left: 0;
+}
+
+.card-body {
+-webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+min-height: 1px;
+padding: 1.25rem;
+}
+
+.card-title {
+margin-bottom: 0.75rem;
+}
+
+.card-subtitle {
+margin-top: -0.375rem;
+margin-bottom: 0;
+}
+
+.card-text:last-child {
+margin-bottom: 0;
+}
+
+.card-link:hover {
+text-decoration: none;
+}
+
+.card-link + .card-link {
+margin-left: 1.25rem;
+}
+
+.card-header {
+padding: 0.75rem 1.25rem;
+margin-bottom: 0;
+background-color: rgba(0, 0, 0, 0.03);
+border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-header + .list-group .list-group-item:first-child {
+border-top: 0;
+}
+
+.card-footer {
+padding: 0.75rem 1.25rem;
+background-color: rgba(0, 0, 0, 0.03);
+border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.bg-primary {
+background-color: #003580 !important;
+}
+
+.border-primary {
+border-color: #003580 !important;
+}
+
+a.bg-primary:hover, a.bg-primary:focus,
+button.bg-primary:hover,
+button.bg-primary:focus {
+background-color: #003580 !important;
+}
+
+.fab {
+  color: #393939;
+}
+
+.share-links {
+  padding-top: 40px;
+}
+
+.automagia {
+  color: black; 725 -> kahdesta kolmeen; 958 neljään
+}
+
+
+@media only screen and (min-width: 724px) {
+    .col {
+        // default styles
+    }
+    .col:nth-child(3n+4) {clear:left} //break to new line every third column/item, beginning at the fourth item
+}
+
+@media only screen and (min-width: 957px) {
+    .col {
+        // default styles, for five columns per row
+    }
+    .col:nth-child(3n+4) {clear:none}
+}
+*/
