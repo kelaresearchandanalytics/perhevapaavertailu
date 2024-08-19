@@ -1,0 +1,588 @@
+{
+  "languages": ["fi", "en","sv"],
+  "translation": [
+    
+    {"fi": "=============================",
+    "en": "METATIEDOT",
+    "sv": "=============================="
+      },
+    {"fi": "Perhevapaavertailun avulla voit tarkastella, miten perhevapaiden jakaminen vanhempien kesken vaikuttaa perheen tuloihin",
+    "en": "You can use this calculator to give you an idea of how sharing family leave between parents can affect your family income",
+    "sv": "Med hjälp av jämförelseverktyget för familjeledigheter kan du ta reda på hur familjens inkomster förändras när föräldrarna delar familjeledigheterna på olika sätt."
+      },
+
+    {"fi": "===============================",
+    "en": "TEKSTIT ENNEN SOVELLUSTA - ALKAA",
+    "sv": "================================"
+      },
+    
+
+    {"fi": "Perhevapaavertailu",
+    "en": "Family leave calculator",
+    "sv": "Jämförelseverktyg för familjeledigheter"
+      },
+
+      {"fi": "Perhevapaavertailun avulla voit tarkastella, miten perhevapaiden jakaminen vanhempien kesken vaikuttaa perheen tuloihin.",
+      "en": "You can use this calculator to give you an idea of how sharing family leave between parents can affect your family income.",
+      "sv": "Med hjälp av jämförelseverktyget för familjeledigheter kan du ta reda på hur familjens inkomster förändras när föräldrarna delar familjeledigheterna på olika sätt."
+      },
+      {"fi": "Vertailu on tarkoitettu työssäkäyville vanhemmille, joiden lapsi on syntynyt 4.9.2022 tai sen jälkeen. Vertailu on suuntaa antava.",
+      "en": "This calculator is intended for working parents whose child was born on or after 4 September 2022. Please note that the results are only indicative.",
+      "sv": "Jämförelseverktyget är avsett för föräldrar som är i arbetslivet och vars barn har fötts 4.9.2022 eller senare. Resultaten är riktgivande."
+      },
+      {"fi": "Perhevapaavertailu on päivitetty vuodelle 2024.",
+      "en": "The calculator has been updated for the year 2024.",
+      "sv": "Jämförelseverktyget för familjeledigheter har uppdaterats för år 2024."
+      },
+      {"fi": "Vertailussa tarkastellaan eri tapoja jakaa lapsen syntymän jälkeen maksettavat",
+      "en": "The calculator examines different ways of dividing the",
+      "sv": "Med hjälp av jämförelseverktyget kan man granska olika sätt att fördela"
+      },
+      {"fi": "https://www.kela.fi/vanhempainraha-ja-vanhempainraha-osittaisena/",
+      "en": "https://www.kela.fi/parental-allowance-and-partial-parental-allowance",
+      "sv": "https://www.kela.fi/foraldrapenning-och-partiell-foraldrapenning"
+      },
+      {"fi": "vanhempainraha",
+      "en": "parental allowance",
+      "sv": "föräldrapenning"
+      },
+      {"fi": "ja",
+      "en": "and",
+      "sv": "och"
+      },
+      {"fi": "https://www.kela.fi/kotihoidontuki/",
+      "en": "https://www.kela.fi/child-home-care-allowance",
+      "sv": "https://www.kela.fi/stod-for-hemvard"
+      },
+      {"fi": "kotihoidon tuki",
+      "en": "child home care allowance",
+      "sv": "stöd för hemvård av barn"
+      },
+      {"fi": "perheen vanhempien kesken (vanhempi A ja vanhempi B). Raskausraha ei ole vertailussa mukana, joten ei ole väliä, kumpi on vertailussa vanhempi A ja kumpi on vanhempi B.",
+      "en": "paid after the child is born between the child’s parents (parent A and parent B). Pregnancy allowance is not included in the comparison, so it does not matter which of the parents is parent A and which is parent B.",
+      "sv": "mellan föräldrarna (förälder A och förälder B) efter att barnet har fötts. Eftersom graviditetspenning inte ingår i jämförelsen är det ingen skillnad vem som är förälder A och vem som är förälder B."
+      },
+      {"fi": "Vanhemmat voivat saada vanhempainrahaa yhteensä 320 päivältä, kumpikin 160 päivältä. Näistä enintään 63 vanhempainrahapäivää on mahdollista luovuttaa toiselle vanhemmalle. Molemmilla vanhemmilla on siis 97 sellaista vanhempainrahapäivää, joita ei voi luovuttaa.",
+      "en": "Parents can receive parental allowance for a total of 320 days, i.e. 160 days each. Of these, a maximum of 63 parental allowance days can be transferred to the other parent. This means that each parent has 97 parental allowance days that cannot be transferred to the other parent.",
+      "sv": "Föräldrarna kan få föräldrapenning för sammanlagt 320 dagar, vardera föräldern för 160 dagar. Av föräldrapenningsdagarna kan högst 63 dagar överlåtas till den andra föräldern. Vardera föräldern har alltså 97 föräldrapenningsdagar som inte kan överlåtas."
+      },
+      {"fi": "Kun päivität vertailuun perheesi tiedot, se laskee suuntaa antavan arvion perheesi bruttotuloista ja verotuksen jälkeen käteen jäävistä nettotuloista kahden vuoden ajalta.  Tuloksena on laskelma, jonka avulla voit tarkastella, kuinka paljon perheen kokonaistulot kahden vuoden ajalta kasvavat tai vähenevät, jos molemmat vanhemmat käyttävät vapaita.",
+      "en": "When you enter your family’s data in the calculator, it calculates an indicative estimate of your family’s gross income and net income after tax for a period of two years. The result is a calculation that gives you an idea of how much your family’s total income will increase or decrease over a period of two years if both parents take family leave.",
+      "sv": "När du matar in uppgifterna för din familj i jämförelseverktyget ger det en ungefärlig uppskattning av din familjs bruttoinkomster och nettoinkomster (inkomsterna efter skatt) för två år. Detta resulterar i en beräkning som du kan använda för att granska hur mycket din familjs totala inkomster kommer att öka eller minska under två år om båda föräldrarna tar ut familjeledighet."
+      },
+      {"fi": "Laskelmaan on valittu kolme vaihtoehtoista tapaa jakaa valitsemasi hoitoaika (1–24 kk) vanhempien kesken. Näitä verrataan tilanteeseen, jossa perhevapaita ei jaeta vaan vain toinen vanhemmista käyttää vapaita. Jos valitsemasi hoitoaika on lyhyt, kotihoidon tuki jää laskelmasta pois.",
+      "en": "The calculator shows three alternative ways of dividing a selected home care period (1–24 months) between the parents. The alternatives are compared to a situation where family leave is not shared, but only one of the parents takes family leave. If the period of home care you select is very short, the home care allowance will be excluded from the calculation.",
+      "sv": "I beräkningen visas tre alternativa sätt att fördela den vårdtid som du valt (1–24 månader) mellan föräldrarna. De olika alternativen jämförs med ett utgångsläge där familjeledigheterna inte delas mellan föräldrarna utan endast den ena föräldern tar ut familjeledighet. Om den vårdtid du valt är kort faller hemvårdsstödet bort från beräkningen."
+      },
+      {"fi": "Seuraavassa kuvataan lyhyesti vertailun lähtökohtana oleva tilanne ja kolme vaihtoehtoista tapaa jakaa perhevapaita:",
+      "en": "The following is a brief description of the scenario used as a reference point for the comparison and of three alternative ways of sharing family leave:",
+      "sv": "Nedan beskrivs kort den situation som utgör utgångspunkt för jämförelsen samt de tre alternativa sätten att fördela familjeledigheterna:"
+      },
+      {"fi": "Vertailukohta",
+      "en": "Reference point",
+      "sv": "Utgångspunkten för jämförelsen"
+      },
+      {"fi": "Vaihtoehto",
+      "en": "Alternative",
+      "sv": "Alternativ"
+      },
+      {"fi": "Vain vanhempi A käyttää vapaita, eli hän hoitaa lasta koko valitsemasi hoitoajan. Vanhempi B ei käytä vapaita.",
+      "en": "Only parent A takes family leave, i.e. they take care of the child during the entire home care period you have selected. Parent B does not take any family leave.",
+      "sv": "Endast förälder A tar ut familjeledighet, dvs. hen sköter barnet under hela den vårdtid du valt. Förälder B tar inte ut familjeledighet."
+      },
+
+      {"fi": "Vanhempainrahapäivät ja kotihoidon tuki jaetaan tasan vanhempien kesken.",
+      "en": "The parental allowance days and home care allowance are divided equally between the parents.",
+      "sv": "Föräldrapenningsdagarna och hemvårdsstödet delas jämnt mellan föräldrarna."
+      },
+      {"fi": "Katso esimerkki perhevapaiden jakamisesta",
+      "en": "See an example of how family leave can be divided",
+      "sv": "Se ett exempel på hur familjeledigheterna kan fördelas"
+      },
+      {"fi": "Asetelma:",
+      "en": "Scenario:",
+      "sv": "Situation:"
+      },
+      {"fi": "Vanhemman A kuukausipalkka on 2 100 euroa, vanhemman B kuukausipalkka on 2 600 euroa, lasta hoidetaan kotona yhteensä 18 kuukautta ja kotihoidon tuki on 380 euroa kuukaudessa.",
+      "en": "The monthly salary of parent A is EUR 2,100. The monthly salary of parent B is EUR 2,600. The child is cared for at home for a total of 18 months and the home care allowance is EUR 380 per month.",
+      "sv": "Förälder A har en månadslön på 2 100 euro, förälder B har en månadslön på 2 600 euro, barnet vårdas hemma i sammanlagt 18 månader och hemvårdsstödet är 380 euro i månaden." 
+      },
+      {"fi": "Vain vanhempi A käyttää vapaita. Vanhempi B luovuttaa 63 vanhempainrahapäivää vanhemmalle A eikä käytä itse mitään vapaita, vaan työskentelee koko kaksivuotisen tarkastelujakson ajan. Vanhemman B vanhempainrahapäivistä 97 jää käyttämättä. Vanhempi A on perhevapaalla 18 kuukautta (saa vanhempainrahaa 160 + 63 päivää ja kotihoidon tukea noin 9 kuukautta) ja palkkatyössä 6 kuukautta. Perheen kahden vuoden aikaiset bruttotulot ovat yhteensä noin 90 630 euroa ja verotuksen jälkeen käteen jäävät nettotulot noin 75 150 euroa.",
+      "en": "Only parent A takes family leave. Parent B transfers 63 parental allowance days to parent A and does not take any leave at all, but instead works during the entire two-year reference period. This means that parent B will have 97 parental allowance days that are not used at all. Parent A is on family leave for 18 months (and thus gets parental allowance for 160 + 63 days and home care allowance for approximately 9 months) and in paid employment for 6 months. The family’s gross income over two years totals approximately EUR 90,630 and the net income remaining after tax is approximately EUR 75,150.",
+      "sv": "Endast förälder A tar ut familjeledighet. Förälder B överlåter 63 föräldrapenningsdagar till förälder A och tar inte själv ut någon familjeledighet utan arbetar i stället under hela granskningsperioden på två år. Av förälder B:s föräldrapenningsdagar förblir 97 oanvända. Förälder A är familjeledig i 18 månader (får föräldrapenning i 160 + 63 dagar och hemvårdsstöd i cirka 9 månader) och har lönearbete i 6 månader. Familjens bruttoinkomster under två år är sammanlagt cirka 90 630 euro och nettoinkomsterna efter skatt är cirka 75 150 euro."
+      },
+      {"fi": "Vaihtoehdoissa 1–3 kuvataan, mitä perheen brutto- ja nettotuloille tapahtuu, jos myös vanhempi B käyttää perhevapaita. Kaikissa vaihtoehdoissa lasta hoidetaan kotona 18 kuukautta.",
+      "en": "Alternatives 1–3 describe what happens to the family's gross and net income if parent B also takes family leave. In all three alternatives, the child is cared for at home for 18 months.",
+      "sv": "Alternativen 1–3 visar hur familjens brutto- och nettoinkomster påverkas om förälder B också tar ut familjeledighet. I alla alternativ vårdas barnet hemma i 18 månader."
+      },
+      {"fi": "Vanhempi B käyttää 97 vanhempainrahapäivää. Vanhempi A käyttää kaikki muut vanhempainrahapäivät ja kotihoidon tukea.",
+      "en": "Parent B uses 97 parental allowance days. Parent A uses all the remaining parental allowance days and the child home care allowance.",
+      "sv": "Förälder B tar ut 97 föräldrapenningsdagar. Förälder A tar ut alla de återstående föräldrapenningsdagarna samt hemvårdsstöd."
+      },
+      {"fi": "Vanhempi B luovuttaa 63 päivää vanhemmalle A ja käyttää itse 97 vanhempainrahapäivää (noin 4 kuukautta). Vanhempi A saa vanhempainrahaa noin 9 kuukautta ja kotihoidon tukea noin 5 kuukautta. Vanhemman A kotihoidon tuen jakso siis lyhenee ja työssäkäyntiaika pitenee vertailukohtaan nähden noin 4 kuukautta. Perheen kahden vuoden aikaiset bruttotulot ovat 3 320 ja nettotulot 4 490 euroa suuremmat kuin vertailukohdassa.",
+      "en": "Parent B transfers 63 parental allowance days to parent A and uses 97 days themselves (about 4 months). Parent A receives parental allowance for about 9 months and home care allowance for about 5 months. In this alternative, parent A’s period of home care allowance is shorter and their time in paid employment longer by about 4 months compared to the reference point. The family's gross income over two years is EUR 3,320 higher and the net income is EUR 4,490 higher than in the reference point scenario.",
+      "sv": "Förälder B överlåter 63 dagar till förälder A och tar själv ut 97 föräldrapenningsdagar (ungefär 4 månader). Förälder A får föräldrapenning i cirka 9 månader och hemvårdsstöd i cirka 5 månader. Jämfört med utgångspunkten för jämförelse är den period med hemvårdsstöd som förälder A har cirka 4 månader kortare och tiden i arbete på motsvarande sätt cirka 4 månader längre. Jämfört med utgångspunkten är familjens bruttoinkomster under två år 3 320 euro högre och nettoinkomsterna  4 490 euro högre."
+      },
+      {"fi": "Vanhempainrahapäivät jaetaan tasan. Vanhempi A käyttää kotihoidon tukea.",
+      "en": "The parental allowance days are divided equally. Parent A uses home care allowance.",
+      "sv": "Föräldrapenningsdagarna fördelas jämnt mellan föräldrarna. Förälder A tar ut hemvårdsstöd."
+      },
+      {"fi": "Molemmat vanhemmat käyttävät 160 vanhempainrahapäivää (reilut 6 kuukautta). Vanhempi A saa kotihoidon tukea noin 5 kuukautta. Vanhempi A työskentelee reilut 12 kuukautta ja vanhempi B noin 18 kuukautta. Perheen kahden vuoden aikaiset bruttotulot ovat 2 860 ja nettotulot 5 180 euroa suuremmat kuin vertailukohdassa.",
+      "en": "Both parents use 160 parental allowance days (about 6 months). Parent A receives home care allowance for about 5 months. Parent A works for about 12 months and parent B for about 18 months. The family's gross income over two years is EUR 2,860 higher and the net income is EUR 5,180 higher than in the reference point scenario.",
+      "sv": "Båda föräldrarna tar ut 160 föräldrapenningsdagar (dryga 6 månader). Förälder A får hemvårdsstöd i cirka 5 månader. Förälder A arbetar dryga 12 månader och förälder B cirka 18 månader. Jämfört med utgångspunkten är familjens bruttoinkomster under två år 2 860 euro högre och nettoinkomsterna 5 180 euro högre."
+      },
+      {"fi": "Vanhempainrahapäivät ja kotihoidon tuki jaetaan tasan.",
+      "en": "The parental allowance days and home care allowance are divided equally.",
+      "sv": "Föräldrapenningsdagarna och hemvårdsstödet fördelas jämnt mellan föräldrarna."
+      },
+      {"fi": "Molemmat vanhemmat käyttävät 160 vanhempainrahapäivää (reilut 6 kuukautta) ja saavat kotihoidon tukea vajaat 3 kuukautta. Molemmat vanhemmat työskentelevät kahden vuoden aikana 15 kuukautta. Perheen kahden vuoden aikaiset bruttotulot ovat 1 560 ja nettotulot 5 190 euroa suuremmat kuin vertailukohdassa.",
+      "en": "Each parent uses 160 parental allowance days (slightly more than 6 months) and receives home care allowance for just under 3 months. Each parent works for 15 months over the two years. The family's gross income over two years is EUR 1,560 higher and the net income is EUR 5,190 higher than in the reference point scenario.",
+      "sv": "Båda föräldrarna tar ut 160 föräldrapenningsdagar (dryga 6 månader) och får hemvårdsstöd i knappa 3 månader. Båda föräldrarna arbetar 15 månader under två år. Jämfört med utgångspunkten är familjens bruttoinkomster under två år 1 560 högre och nettoinkomsterna 5 190 euro högre."
+      },
+      {"fi": "Esimerkissä perheen kannalta taloudellista paras ratkaisu olisi jakaa vapaat tasan. Euromäärät ovat suuntaa antavia.",
+      "en": "In this example, the best solution in financial terms would be for the parents to share the family leave equally. The amounts shown here are only indicative.",
+      "sv": "I exemplet skulle den mest ekonomiskt fördelaktiga lösningen för familjen vara att fördela ledigheterna jämnt mellan föräldrarna. Beloppen är endast riktgivande."
+      },
+      
+      {"fi": "****************************************",
+      "en": "SOVELLUKSEN KÄYTTÖLIITTYMÄN TEKSTIT",
+      "sv": "*****************************************"
+      },
+      
+      {"fi": "Täytä tiedot oman tilanteesi mukaan. Tulokset päivittyvät alle.",
+      "en": "Enter information on your own family’s situation. Press “Update the calculation” to see the results.",
+      "sv": "Mata in uppgifter enligt din egen situation. Resultaten uppdateras nedan."
+      },
+      {"fi": "Ohje",
+      "en": "Instructions",
+      "sv": "Anvisning"
+      },
+      {"fi": "Vanhemman A palkka (e/kk)",
+      "en": "Parent A’s salary (EUR per month)",
+      "sv": "Förälder A:s lön (euro/månad)"
+      },
+      {"fi": "Vanhemman A palkkatulojen kirjaamisohje",
+      "en": "Instructions for entering parent A’s salary",
+      "sv": "Anvisning för hur man anger lönen för förälder A"
+      },
+      {"fi": "Ilmoita vanhemman kuukausipalkka bruttona eli ennen verojen vähentämistä.",
+      "en": "Enter the parent’s monthly income in gross, i.e. before tax.",
+      "sv": "Ange förälderns månadslön i brutto, det vill säga före skatt."
+      },
+      {"fi": "Palkkatiedon perusteella lasketaan vanhempainrahan suuruus. Laskelmassa oletetaan, että vanhempi työskentelee tällä palkalla koko sen ajan, jolloin hän ei saa vanhempainrahaa tai kotihoidon tukea.",
+      "en": "The amount of parental allowance will be calculated on the basis of the salary information. For the purposes of the calculation, it is assumed that the parent will earn the same salary throughout the period for which they do not receive parental allowance or home care allowance.",
+      "sv": "Föräldrapenningens belopp räknas utifrån löneuppgiften. Beräkningen bygger på ett antagande om att att föräldern arbetar och har samma lön hela den tid då hen inte har föräldrapenning eller hemvårdsstöd."
+      },
+      {"fi": "Vanhemman B palkka (e/kk)",
+      "en": "Parent B’s salary (EUR per month)",
+      "sv": "Förälder B:s lön (euro/månad)"
+      },
+      {"fi": "Vanhemman B palkkatulojen kirjaamisohje",
+      "en": "Instructions for entering parent B’s salary",
+      "sv": "Anvisning för hur man anger lönen för förälder B"
+      },
+      {"fi": "Aika, joka lasta hoidetaan kotona (1–24 kk)",
+      "en": "Time during which the child is cared for at home (1–24 months)",
+      "sv": "Tid under vilken barnet vårdas hemma (1–24 månader)"
+      },
+      {"fi": "Lapsen kokonaishoitoajan kirjaamisohje",
+      "en": "Instructions for entering the total time that the child is cared for at home",
+      "sv": "Anvisning för hur man anger den totala tiden som barnet vårdas hemma"
+      },
+      {"fi": "Ilmoita aika, jonka perhe hoitaa lasta kotona lapsen kahteen ikävuoteen asti.",
+      "en": "Enter the time during which the family cares for the child at home until the age of two.",
+      "sv": "Ange den tid som familjen vårdar barnet hemma tills barnet fyller två år."
+      },
+      {"fi": "Vertailu esittää erilaisia tapoja jakaa valittu kotihoitoaika vanhempien kesken. Perheen brutto- ja nettotulot lasketaan aina kahden vuoden ajalta, vaikka lasta hoidettaisiin kotona alle 24 kk.",
+      "en": "The calculator shows different ways of dividing the chosen home care period between the parents. The family's gross and net income is always calculated for a period of two years, even if the child is cared for at home for less than 24 months.",
+      "sv": "Jämförelseverktyget visar hur hemvårdstiden kan fördelas på olika sätt mellan föräldrarna. Även om barnet vårdas hemma i mindre än 24 månader beräknas familjens brutto- och nettoinkomster alltid för två år."
+      },
+      {"fi": "Kotihoidon tuki (e/kk)",
+      "en": "Child home care allowance (EUR per month)",
+      "sv": "Hemvårdsstöd (euro/månad)"
+      },
+      {"fi": "Kotihoidontuen määrän kirjaamisohje",
+      "en": "Instructions for entering the amount of home care allowance",
+      "sv": "Anvisning för hur man anger beloppet av hemvårdsstöd"
+      },
+      {"fi": "Ilmoita, kuinka paljon perhe saa kotihoidon tukea kuukaudessa.",
+      "en": "Enter the amount of home care allowance your family receives per month.",
+      "sv": "Ange hur mycket familjen får i hemvårdsstöd per månad."
+      },
+      {"fi": "Yhdestä lapsesta tuki on noin 380 euroa kuukaudessa. Voit muuttaa euromäärää, jos perheessä on muita kotona hoidettavia sisaruksia tai saat kotihoidon tuen kuntalisää tai tulojen perusteella määräytyvää hoitolisää. Lisätietoa kotihoidon tuen määrästä saat osoitteesta",
+      "en": "The home care allowance for one child is about EUR 380 per month. You can change the amount if your family has other children who are cared for at home, or if you receive a municipal supplement to the home care allowance or a supplement based on income. For more information on the amount of home care allowance, please visit",
+      "sv": "Hemvårdsstödet är cirka 380 euro i månaden för ett barn. Du kan ändra beloppet om barnet har syskon som också vårdas hemma eller om du får kommuntillägg till hemvårdsstödet eller vårdtillägg på basis av dina inkomster. Närmare information om hemvårdsstödets belopp finns på adressen"
+      },
+      {"fi": "kela.fi/kotihoidontuki",
+      "en": "kela.fi/child-home-care-allowance",
+      "sv": "kela.fi/stod-for-hemvard"
+      },
+      {"fi": "Päivitä laskelma",
+      "en": "Update the calculation",
+      "sv": "Uppdatera beräkningen"
+      },
+      {"fi": "Anna numeerinen arvo",
+      "en": "Enter a numeric value",
+      "sv": "Ange ett numeriskt värde"
+      },
+      {"fi": "Kokonaiskotihoitoajan vähimmäiskesto on 1 ja enimmäiskesto on 24 kuukautta. Yli 24 arvoja ei huomioida",
+      "en": "The period you enter must be a minimum of 1 month and a maximum of 24 months. Values over 24 will not be applied",
+      "sv": "Den sammanlagda tiden som barnet vårdas hemma ska vara minst 1 månad och högst 24 månader. Värden på över 24 månader beaktas inte"
+      },
+      {"fi": "Kotihoidontuen vähimmäismäärä on 0e ja enimmäismäärä on 2000e. Yli 2000e arvoja ei huomioida.",
+      "en": "The minimum amount of home care allowance is EUR 0 and the maximum amount is EUR 2,000. Values over EUR 2,000 will not be applied.",
+      "sv": "Hemvårdsstödet ska vara minst 0 euro och högst 2 000 euro. Belopp på över 2 000 euro beaktas inte."
+      },
+      {"fi": "******************",
+      "en": "KUVIOIDEN FUNKTIOT",
+      "sv": "*******************"
+      },
+      {"fi": "Kuvio havainnollistaa tulostaulukon alarivillä olevat tekstiselitteet. Tekstiselitteissä olevat tiedot vastaavat kuvassa esitettäviä tietoja.",
+      "en": "The graph illustrates the written explanations on the bottom line of the results table. The information in the written explanations corresponds to the information in the graph.",
+      "sv": "Figuren åskådliggör den information som presenteras i textform på den nedersta raden i tabellen. Informationen i textform motsvarar informationen i figuren."
+      },
+      {"fi": "Vapaajaksojen jakautuminen vanhempien kesken eri vaihtoehdoissa",
+      "en": "The way leave is divided between the parents in the different alternatives",
+      "sv": "Fördelningen av familjeledighetsperioder mellan föräldrarna enligt de olika alternativen"
+      },
+      {"fi": "työssä",
+      "en": "working",
+      "sv": "arbetar"
+      },
+      {"fi": "työssä22",
+      "en": "työssä22",
+      "sv": "työssä22"
+      },
+      {"fi": "kotihoidontuki",
+      "en": "child home care allowance",
+      "sv": "hemvårdsstöd"
+      },
+      
+      {"fi": "Vain vanhempi A käyttää vapaita",
+      "en": "Only parent A takes family leave",
+      "sv": "Endast förälder A tar ut ledighet"
+      },
+            {"fi": "Vanhempainrahapäivät jaetaan tasan",
+      "en": "Parental allowance days are divided equally",
+      "sv": "Föräldrapenningsdagarna fördelas jämnt"
+      },
+      {"fi": "Vanhempainrahapäivät ja kotihoidon tuki jaetaan tasan",
+      "en": "The parental allowance days and home care allowance are divided equally",
+      "sv": "Föräldrapenningsdagarna och hemvårdsstödet fördelas jämnt"
+      },
+      {"fi": "Vanhempi B käyttää 97 vanhempainrahapäivää ja vanhempi A muut vapaat",
+      "en": "Parent B uses 97 parental allowance days and parent A uses the rest of the leave",
+      "sv": "Förälder B tar ut 97 föräldrapenningsdagar och förälder A de återstående ledigheterna"
+      },
+
+      
+      {"fi": "************",
+      "en": "TAULUKOIDEN FUNKTIOT",
+      "sv": "*************"
+      },
+      
+      {"fi": "Ei käytä vanhempainrahaa, luovuttaa 63 arkipäivää vanhemmalle A",
+       "en": "Does not use parental allowance, transfers 63 working days to parent A",
+       "sv": "Tar inte ut föräldrapenning, överlåter 63 vardagar till förälder A"
+      },
+      
+      {"fi": ", luovuttaa 63 arkipäivää vanhemmalle A",
+       "en": ", transfers 63 working days to parent A",
+       "sv": ", överlåter 63 vardagar till förälder A"
+      },
+      
+      {"fi": "Vanhempi",
+      "en": "Parent",
+      "sv": "Förälder"
+      },
+      {"fi": "vanhemmalle",
+      "en": "to parent",
+      "sv": "till förälder"
+      },      
+
+      {"fi": "Vanhempainrahaa",
+      "en": "Parental allowance for",
+      "sv": "Föräldrapenning i"
+      },
+      {"fi": "arkipäivää",
+      "en": "working days",
+      "sv": "vardagar"
+      },
+      {"fi": "kuukautta",
+      "en": "months",
+      "sv": "månader"
+      },
+            {"fi": "Kotihoidon tukea",
+      "en": "Child home care allowance for",
+      "sv": "Hemvårdsstöd i"
+      },
+      {"fi": "Ei käytä vanhempainrahaa",
+      "en": "Does not use parental allowance",
+      "sv": "Tar inte ut föräldrapenning"
+      },
+            {"fi": "Ei käytä kotihoidon tukea",
+      "en": "Does not use home care allowance",
+      "sv": "Tar inte ut hemvårdsstöd"
+      },
+      {"fi": "Palkkatyössä",
+      "en": "In paid employment for",
+      "sv": "I lönearbete"
+      },
+      {"fi": "luovuttaa",
+      "en": "transfers",
+      "sv": "överlåter"
+      },
+      {"fi": "Vanhempi B käyttää 97 vanhempainrahapäivää ja vanhempi A käyttää muut vapaat",
+      "en": "Parent B uses 97 parental allowance days and parent A uses the rest of the leave",
+      "sv": "Förälder B tar ut 97 föräldrapenningsdagar och förälder A de återstående ledigheterna"
+      },
+      {"fi": "Vaihtoehtoa ei voi laskea, kun kokonaishoitoaika on lyhyt",
+      "en": "The alternative cannot be calculated because the total care time is short",
+      "sv": "Det går inte att beräkna alternativet då den sammanlagda tiden då barnet vårdas hemma är så kort"
+      },
+      {"fi": "Vaihtoehtoa",
+      "en": "The alternative",
+      "sv": "Det går inte att beräkna alternativet"
+      },      
+      {"fi": "ei voi laskea, kun kokonaishoitoaika on lyhyt",
+      "en": "cannot be calculated because the total care time is short",
+      "sv": "då den sammanlagda tiden då barnet vårdas hemma är så kort"
+      },      
+
+      {"fi": "Vaihtoehto 2: Vanhempainrahapäivät jaetaan tasan",
+      "en": "Alternative 2: The parental allowance days are divided equally",
+      "sv": "Alternativ 2: Föräldrapenningsdagarna fördelas jämnt"
+      },
+      {"fi": "Vaihtoehto 3: Vanhempainrahapäivät ja kotihoidon tuki jaetaan tasan",
+      "en": "Alternative 3: The parental allowance days and home care allowance are divided equally",
+      "sv": "Alternativ 3: Föräldrapenningsdagarna och hemvårdsstödet fördelas jämnt"
+      },
+      {"fi": "kokonaistulot",
+      "en": "total income",
+      "sv": "totala inkomster"
+      },
+      {"fi": "brutto",
+      "en": "gross income",
+      "sv": "brutto"
+      },
+      {"fi": "netto",
+      "en": "net income",
+      "sv": "netto"
+      },
+      {"fi": "muutos",
+      "en": "difference",
+      "sv": "skillnad"
+      },
+      {"fi": "Perheen tulot ja tulojen muutos",
+      "en": "The family’s income and the difference in income",
+      "sv": "Familjens inkomster och skillnaden i inkomster"
+      },
+      {"fi": "Seuraavassa taulukossa näytetään perheen kokonaistulot kahden vuoden ajalta sekä esitetään, miten perheen brutto- ja nettotulot muuttuvat suhteessa vertailukohtaan, kun perhevapaita jaetaan eri tavoin.",
+      "en": "The following table shows the family’s total income over a period of two years. The table also shows how sharing the family leave in different ways between the parents will change the family's gross and net income compared with the reference point.",
+      "sv": "Tabellen nedan visar familjens totala inkomster under två år och hur familjens brutto- och nettoinkomster förändras i jämförelse med utgångspunkten när man fördelar familjeledigheterna på olika sätt."
+      },
+      {"fi": "arkipäivää vanhemmalle A",
+      "en": "working days to parent A",
+      "sv": "vardagar till förälder A"
+      },
+
+      {"fi": "**************************************",
+      "en": "TIETOA PERHEVAPAAVERTAILUSTA TEKSTIT",
+      "sv": "*****************************************"
+      },
+      {"fi": "Tietoa perhevapaavertailusta",
+      "en": "Information about the family leave calculator",
+      "sv": "Information om jämförelseverktyget för familjeledigheter"
+      },
+      {"fi": "Perhevapaavertailun brutto- ja nettotulojen laskennassa otetaan huomioon vanhempien palkkatulot, vanhempainraha ja kotihoidon tuki. Vanhempainrahan määrä lasketaan vertailuun syötettyjen palkkatulojen perusteella. Pienituloiselle tai tulottomalle vertailussa lasketaan vanhempainrahan vähimmäismäärä (31,99 euroa päivässä vuonna 2024), mutta mahdollisia muita pienituloisen tai tulottoman saamia etuuksia ei oteta huomioon. Vertailu ei siten sovi tilanteisiin, joissa toinen vanhempi on esimerkiksi työttömänä.",
+      "en": "The calculation of the family's gross and net income in the family leave calculator takes into account the parents’ earned income, the parental allowance and home care allowance. The amount of the parental allowance is calculated on the basis of the earned income entered into the calculator. For a person with low or no income, the calculator takes into account the minimum amount of parental allowance (EUR 31.99 per day as of 1 January 2023), but not any other benefits that they may receive. This means that the calculator does not work in situations where one of the parents is unemployed, for example.",
+      "sv": "När jämförelseverktyget för familjeledigheter beräknar familjens brutto- och nettoinkomster beaktas föräldrarnas löneinkomster, föräldrapenning och hemvårdsstöd. Beloppet av föräldrapenningen beräknas utifrån de löneuppgifter som har matats in i verktyget. Om det är fråga om en person som har låga inkomster eller som helt saknar inkomster tar jämförelseverktyget i beaktande minimibeloppet för föräldrapenning (31,99 euro per dag från 1.1.2023) men eventuella övriga förmåner som hen har beaktas inte. Således lämpar sig jämförelseverktyget inte för situationer där den ena föräldern till exempel är arbetslös."
+      },
+      {"fi": "Nettotulot lasketaan vähentämällä bruttotuloista verot ja sosiaalivakuutusmaksut. Verojen laskentaa varten tulot jaetaan tasan kahdelle verovuodelle. Verot ja sosiaaliturvamaksut lasketaan vuoden 2024 lainsäädännön ja keskimääräisen kunnallisveroprosentin (7,46 %) mukaan. Kirkollisveroa ei oteta laskennassa huomioon. Laskennassa otetaan huomioon Verohallinnon viran puolesta tekemät vähennykset, mutta ei esimerkiksi työmatkavähennystä.",
+      "en": "Net income is calculated by deducting taxes and social insurance contributions from gross income. For the purposes of calculating taxes, the income is divided equally over two tax years. Taxes and social security contributions are calculated according to the legislation in force in 2024 and the average municipal tax rate (7.46%) of that year. Church tax is not taken into account. The calculation takes into account deductions made automatically by the Tax Administration, but does not take into account deductions such as those for commuting expenses.",
+      "sv": "Nettoinkomsterna beräknas genom att skatter och socialförsäkringsavgifter dras av från bruttoinkomsterna. För beräkningen av skatterna fördelas inkomsterna jämnt på två skatteår. Skatterna och socialförsäkringsavgifterna beräknas enligt gällande lagstiftning år 2024 och enligt den dåvarande genomsnittliga kommunalskatteprocenten (7,46 %). Kyrkoskatten beaktas inte i beräkningen. I beräkningen beaktas de avdrag som Skatteförvaltningen gör automatiskt men inte avdrag för till exempel resor mellan bostaden och arbetsplatsen."
+      },
+      {"fi": "Laskennassa ei oteta huomioon mahdollista työnantajan vanhempainvapaan ajalta maksamaa palkkaa. Laskennassa on oletettu, että vanhemmat eivät käytä vanhempainrahaa yhtä aikaa, vaan toisen vanhemman saadessa etuutta toinen työskentelee ja saa ilmoitettua palkkaa.",
+      "en": "The calculation does not take into account a possible salary paid by the employer during parental leave. The calculation assumes that parents do not use parental allowance at the same time, but that when one parent receives the benefit, the other works and receives the salary entered in the calculation.",
+      "sv": "I beräkningen beaktas inte eventuell lön som arbetsgivaren betalar ut under föräldraledigheten. Beräkningen utgår från att föräldrarna inte tar ut föräldrapenning samtidigt utan att den ena föräldern arbetar och får angiven lön medan den andra får förmånen."
+      },
+      {"fi": "Vertailun tulokset ovat suuntaa antavia. Perheen todellisiin tuloihin vaikuttavat myös muut kuin tässä käsitellyt palkka- ja perhe-etuustulot. Nettotuloihin vaikuttavat myös esimerkiksi tulojen jaksottuminen verovuosille ja verotuksessa itse ilmoitettavat vähennykset.",
+      "en": "Please note that the results are only indicative. The actual income of the family is also affected by other factors in addition to the earned income and family benefits discussed here. The net income is also affected by factors such as the periodisation of income over different tax years and tax deductions that have to be claimed.",
+      "sv": "Resultaten som jämförelseverktyget ger är riktgivande. Familjens faktiska inkomster påverkas även av andra löne- och förmånsinkomster än de som behandlats här. Nettoinkomsterna påverkas även av t.ex. periodiseringen av inkomsterna på skatteår samt de avdrag som personerna själv ska meddela i samband med beskattningen."
+      },
+      {"fi": "Voit arvioida perhe-etuuksien tarkkoja määriä ja tuloistasi perittävien sosiaalivakuutusmaksujen ja verojen määriä Kelan ja Verohallinnon laskureiden avulla.",
+      "en": "You can use the calculators provided by Kela and the Tax Administration to estimate the exact amounts of your family benefits and of the social insurance contributions and taxes levied on your income.",
+      "sv": "Du kan uppskatta de noggranna beloppen av dina familjeförmåner samt de skatter och socialförsäkringavgifter som tas ut på dina inkomster med hjälp av de räknare som FPA och Skatteförvaltningen har."
+      },
+      {"fi": "https://laskurit.kela.fi/raskaus-ja-vanhempainrahapaivien-laskuri/",
+      "en": "https://laskurit.kela.fi/pregnancy-and-parental-allowance-payment-period-calculator",
+      "sv": "https://laskurit.kela.fi/raknare-for-graviditets-och-foraldrapenningsdagar"
+      },
+      {"fi": "Raskaus- ja vanhempainrahapaivien laskuri",
+      "en": "Pregnancy and parental allowance: Payment period calculator",
+      "sv": "Räknare för graviditets- och föräldrapenningsdagar"
+      },
+      {"fi": "https://laskurit.kela.fi/vanhempainpaivaraha-laskuri",
+      "en": "https://laskurit.kela.fi/r%C3%A4knare-f%C3%B6r-f%C3%B6r%C3%A4ldradagpenning",
+      "sv": "https://laskurit.kela.fi/vanhempainpaivaraha-laskuri"
+      },
+      {"fi": "Vanhempainpäivärahan määrän laskuri",
+      "en": "Calculator for daily allowances for parents (in Finnish or Swedish)",
+      "sv": "Räknare för föräldradagpenningens belopp"
+      },
+      {"fi": "https://laskurit.kela.fi/lastenhoidon-tukien-maaran-laskuri/",
+      "en": "https://laskurit.kela.fi/lastenhoidon-tukien-maaran-laskuri/",
+      "sv": "https://laskurit.kela.fi/raknare-for-barnavardsstodets-belopp"
+      },
+      {"fi": "Lastenhoidon tuen määrän laskuri",
+      "en": "Calculator for child care allowance amount (in Finnish or Swedish)",
+      "sv": "Räknare för barnavårdsstödets belopp"
+      },
+      {"fi": "https://vero.fi/henkiloasiakkaat/verokortti-ja-veroilmoitus/verokortti/veroprosenttilaskuri/",
+      "en": "https://vero.fi/en/individuals/tax-cards-and-tax-returns/tax_card/tax-percentage-calculator/",
+      "sv": "https://vero.fi/sv/privatpersoner/skattekort-och-skattedeklaration/skattekort/skatteprocentraknaren/"
+      },
+      {"fi": "Veroprosenttilaskuri (vero.fi)",
+      "en": "Tax percentage calculator (vero.fi)",
+      "sv": "Skatteprocenträknaren (skatt.fi)"
+      },
+      {"fi": "*************************************",
+      "en": "SAAVUTETTAVUUSSELOSTER TEKSTIT",
+      "sv": "*****************************************"
+      },
+      {"fi": "Saavutettavuusseloste",
+      "en": "Accessibility statement",
+      "sv": "Tillgänglighetsutlåtande"
+      },
+      {"fi": "Tämä saavutettavuusseloste koskee Perhevapaavertailu -verkkosovellusta. Seloste on laadittu 7.12.2022. Verkkosivuston saavutettavuus on arvioitu Kelassa.",
+      "en": "This is an accessibility statement for Kela’s online Family leave calculator. This statement was created on 7 December 2022. The website has been evaluated for accessibility at Kela.",
+      "sv": "Det här tillgänglighetsutlåtandet gäller webbapplikationen Jämförelseverktyg för familjeledigheter. Utlåtandet har gjorts upp 7.12.2022. Webbplatsens tillgänglighet har bedömts hos FPA."
+      },
+      {"fi": "Miten saavutettava verkkopalvelu on?",
+      "en": "How accessible is the website?",
+      "sv": "Hur tillgänglig är tjänsten?"
+      },
+      {"fi": "Saavutettavuusvaatimukset on huomioitu, ja palvelu täyttää kriittiset saavutettavuusvaatimukset (WCAG-kriteeristö 2.1 A- ja AA-tasot).",
+      "en": "The accessibility standards have been taken into account, and the online service is compliant with priority level 2 (WCAG 2.1 A and AA).",
+      "sv": "Vi har beaktat kraven på tillgänglighet och tjänsten uppfyller de kritiska tillgänglighetskraven (WCAG-kriterierna på nivåerna 2.1 A och AA)."
+      },
+      {"fi": "Sisällöt, jotka eivät ole saavutettavia",
+      "en": "Non-accessible content",
+      "sv": "Innehåll som inte är tillgängligt"
+      },
+      {"fi": "Käyttäjät saattavat edelleen kohdata sivustolla joitakin saavutettavuusongelmia. Jos huomaat sivustolla ongelman, ilmoitathan siitä meille.",
+      "en": "Users may still encounter some accessibility issues on our website. If you discover an accessibility problem on this website, please let us know.",
+      "sv": "Användarna kan fortsättningsvis stöta på vissa tillgänglighetsproblem på webbplatsen. Vänligen meddela oss om du upptäcker ett problem på webbplatsen."
+      },
+      {"fi": "Anna palautetta saavutettavuudesta",
+      "en": "Give feedback on accessibility",
+      "sv": "Ge respons om tillgängligheten"
+      },
+      {"fi": "https://www.kela.fi/saavutettavuuspalaute",
+      "en": "https://www.kela.fi/respons-om-tillganglighet",
+      "sv": "https://www.kela.fi/accessibility-feedback"
+      },
+      {"fi": "verkkolomakkeella",
+      "en": "using our online form",
+      "sv": "med en webblankett"
+      },
+      {"fi": "Saavutettavuuspalautteet Kelassa vastaanottaa Kelan tekninen tuki.",
+      "en": "Accessibility feedback is received by our Technical Support team.",
+      "sv": "Tillgänglighetsrespons till FPA tas emot av den tekniska supporten."
+      },
+      {"fi": "Saavutettavuuden valvonta",
+      "en": "Ongoing evaluation of accessibility",
+      "sv": "Tillsyn över tillgängligheten"
+      },
+      {"fi": "Jos huomaat sivustolla saavutettavuuteen liittyviä ongelmia, anna ensin palautetta meille. Vastaamme 2 viikon sisällä.",
+      "en": "If you notice problems with the accessibility of this website, please send us feedback first. We will respond within two weeks.",
+      "sv": "Om du upptäcker problem som gäller tillgängligheten ska du först ge oss respons på saken. Vi svarar inom 2 veckor."
+      },
+      {"fi": "Jos et ole tyytyväinen saamaasi vastaukseen tai jos et saa vastausta 2 viikon aikana,",
+      "en": "If you are not satisfied with our reply or if you do not receive a reply within two weeks, you can file a report with",
+      "sv": "Om du inte är nöjd med det svar du får eller inte får något svar alls inom två veckor kan du lämna in en anmälan om bristande tillgänglighet till"
+      },
+      {"fi": "https://www.saavutettavuusvaatimukset.fi/oikeutesi/",
+      "en": "https://www.saavutettavuusvaatimukset.fi/oikeutesi/",
+      "sv": "https://www.saavutettavuusvaatimukset.fi/oikeutesi/"
+      },
+      {"fi": "voit tehdä ilmoituksen Etelä-Suomen aluehallintovirastoon",
+      "en": "the Regional State Administrative Agency for Southern Finland",
+      "sv": "Regionförvaltningsverket i Södra Finland"
+      },
+      {"fi": "Valvontaviranomaisen yhteystiedot",
+      "en": "Contact information for the Regional State Administrative Agency",
+      "sv": "Tillsynsmyndighetens kontaktuppgifter"
+      },
+      {"fi": "Etelä-Suomen aluehallintovirasto",
+      "en": "Regional State Administrative Agency of Southern Finland",
+      "sv": "Regionförvaltningsverket i Södra Finland"
+      },
+      {"fi": "Saavutettavuuden valvonnan yksikkö",
+      "en": "Accessibility Monitoring Unit",
+      "sv": "Enheten för tillgänglighetstillsyn"
+      },
+      {"fi": "https://www.saavutettavuusvaatimukset.fi/",
+      "en": "https://www.webaccessibility.fi/",
+      "sv": "https://www.tillganglighetskrav.fi/"
+      },
+      {"fi": "www.saavutettavuusvaatimukset.fi",
+      "en": "www.webaccessibility.fi",
+      "sv": "www.tillganglighetskrav.fi"
+      },
+      {"fi": "saavutettavuus(at)avi.fi",
+      "en": "saavutettavuus(at)avi.fi",
+      "sv": "webbtillganglighet(atrfv.fi"
+      },
+      {"fi": "puhelinnumero vaihde 0295 016 000",
+      "en": "Telephone exchange: 0295 016 000",
+      "sv": "telefonnummer växeln 0295 016 000"
+      },
+      {"fi": "Teemme jatkuvasti työtä saavutettavuuden parantamiseksi",
+      "en": "Our ongoing efforts to improve accessibility on our website",
+      "sv": "Vi arbetar kontinuerligt för att förbättra tillgängligheten"
+      },
+      {"fi": "Olemme sitoutuneet parantamaan verkkopalveluiden saavutettavuutta. Varmistamme saavutettavuuden mm. seuraavilla toimenpiteillä:",
+      "en": "We are committed to improving the accessibility of our online services. The steps we are taking to ensure accessibility include the following:",
+      "sv": "Vi har förbundit oss till att förbättra tillgängligheten i våra tjänster på nätet. Vi säkrar tillgängligheten genom bland annat följande åtgärder:"
+      },
+      {"fi": "Otamme saavutettavuusvaatimukset huomioon, kun kehitämme palveluita.",
+      "en": "We take accessibility requirements into account when developing our services.",
+      "sv": "Vi beaktar kraven på tillgänglighet när vi utvecklar våra tjänster."
+      },
+      {"fi": "Panostamme kielen ymmärrettävyyteen.",
+      "en": "We take special care to communicate in understandable language.",
+      "sv": "Vi satsar på ett begripligt språk."
+      },
+      {"fi": "Otamme saavutettavuusvaatimukset huomioon, kun teemme hankintoja.",
+      "en": "We are integrating accessibility considerations into our procurement processes.",
+      "sv": "Vi beaktar tillgänglighetskraven i våra upphandlingar."
+      },
+      {"fi": "Tarjoamme työntekijöillemme saavutettavuuskoulutusta.",
+      "en": "We provide accessibility training to our employees.",
+      "sv": "Vi erbjuder våra anställda utbildning i tillgänglighet."
+      },
+      {"fi": "href='https://www.finlex.fi/fi/laki/alkup/2019/20190306'",
+      "en": "href='https://www.finlex.fi/fi/laki/alkup/2019/20190306'",
+      "sv": "href='https://www.finlex.fi/fi/laki/alkup/2019/20190306'"
+      },
+      {"fi": "Laki digitaalisten palveluiden tarjoamisesta (finlex.fi)",
+      "en": "Act on the Provision of Digital Services (finlex.fi) (in Finnish)",
+      "sv": "Lagen om tillhandahållande av digitala tjänster (finlex.fi)"
+      },
+      {"fi": "*************************",
+      "en": "SEKALAISIA",
+      "sv": "****************************"
+      },
+      {"fi": "Sovelluksen versio",
+      "en": "Application version",
+      "sv": "Applikationsversion"
+      },
+      {"fi": "Lähdekoodi",
+      "en": "Source code",
+      "sv": "Källkod"
+      }
+      
+      
+      ]
+}
