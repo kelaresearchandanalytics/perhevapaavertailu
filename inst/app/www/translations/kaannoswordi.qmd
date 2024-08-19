@@ -1,0 +1,17 @@
+---
+title: "perhevapaavertailu"
+format: docx
+---
+
+```{r, echo = FALSE, message = FALSE, warning=FALSE}
+library(dplyr)
+ll <- jsonlite::fromJSON("./translation.json")
+lll <- as_tibble(ll$translation)
+teksti <- lll %>% 
+  filter(!grepl("^=|^\\*", fi)) %>% 
+  pull(fi)
+# cat(teksti, sep = "\n\n")
+# print(teksti)
+for (i in seq(teksti)) cat(teksti[i], "\n\n")
+```
+

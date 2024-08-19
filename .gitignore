@@ -1,0 +1,10 @@
+.Rproj.user
+.Rhistory
+.Rdata
+.httr-oauth
+.DS_Store
+perhevapaavertailu.Rproj
+Dockerfile_openshift
+Dockerfile_shinyproxy
+aymp-build.conf
+LICENSE
