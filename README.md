@@ -34,18 +34,18 @@ perhevapaavertailu::run_app()
 citation("perhevapaavertailu")
 #> To cite package 'perhevapaavertailu' in publications use:
 #> 
-#>   Keski-Säntti E, Eskelinen P, Isolankila T, Kainu M (2024).
+#>   Keski-Säntti E, Eskelinen P, Isolankila T, Kainu M (2025).
 #>   _perhevapaavertailu: A shiny application for calculating how sharing
 #>   family leave between parents can affect your family income_. R
-#>   package version 1.0.0.
+#>   package version 1.0.1.
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
 #>   @Manual{,
 #>     title = {perhevapaavertailu: A shiny application for calculating how sharing family leave between parents can affect your family income},
 #>     author = {Eeva-Maria Keski-Säntti and Petri Eskelinen and Tapio Isolankila and Markus Kainu},
-#>     year = {2024},
-#>     note = {R package version 1.0.0},
+#>     year = {2025},
+#>     note = {R package version 1.0.1},
 #>   }
 ```
 
