@@ -177,13 +177,13 @@ a:focus  {
                )),
       # Nootti alkaa!!
       tags$div(class = "container_1280", style = "padding-top: 20px; ",
-      tags$div(class="kds-theme-kela kds-alert kds-alert--icon-left kds-alert--primary col-md-8",
-               tags$html(HTML('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" class="kds-alert__icon kds-icon kds-icon--size-s"><path fill="none" d="M0 0h24v24H0z"></path><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="2"></circle><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M12 17v-6"></path><circle cx="12" cy="7" r="0.3" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="2"></circle></svg>')),
-               tags$div(class="kds-alert__content", "16.1.2024 |", i18n$t("Perhevapaavertailu on päivitetty vuodelle 2024.")
+               tags$div(class="kds-theme-kela kds-alert kds-alert--icon-left kds-alert--primary col-md-8",
+                        tags$html(HTML('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" class="kds-alert__icon kds-icon kds-icon--size-s"><path fill="none" d="M0 0h24v24H0z"></path><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="2"></circle><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M12 17v-6"></path><circle cx="12" cy="7" r="0.3" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="2"></circle></svg>')),
+                        tags$div(class="kds-alert__content", "16.1.2025 |", i18n$t("Perhevapaavertailu on päivitetty vuodelle 2025.")
+                        )
                )
-      )
-    ),
-    # Nootti päättyy!!
+      ),
+      # Nootti päättyy!!
       tags$div(class = "container_1280", style = "padding-top: 20px;",
                tags$div(class = "row",
                         tags$div(class="col-md-8",
@@ -230,7 +230,7 @@ a:focus  {
                                           `aria-labelledby`="flush-headingTwo",
                                           tags$div(class="kds-accordion__body kds-collapse kds-collapse--visible",
                                                    tags$div(style="padding: 15px; background-color: #f3f5f9;",
-                                                            tags$p(tags$strong(i18n$t("Asetelma:")), i18n$t("Vanhemman A kuukausipalkka on 2 100 euroa, vanhemman B kuukausipalkka on 2 600 euroa, lasta hoidetaan kotona yhteensä 18 kuukautta ja kotihoidon tuki on 380 euroa kuukaudessa.")),
+                                                            tags$p(tags$strong(i18n$t("Asetelma:")), i18n$t("Vanhemman A kuukausipalkka on 2 100 euroa, vanhemman B kuukausipalkka on 2 600 euroa, lasta hoidetaan kotona yhteensä 18 kuukautta ja kotihoidon tuki on 380 euroa kuukaudessa. Esimerkin laskenta perustuu verotukseen ja etuuden korvaustasoon vuonna 2024.")),
                                                             tags$p(tags$strong(i18n$t("Vertailukohta")), ": ",i18n$t("Vain vanhempi A käyttää vapaita. Vanhempi B luovuttaa 63 vanhempainrahapäivää vanhemmalle A eikä käytä itse mitään vapaita, vaan työskentelee koko kaksivuotisen tarkastelujakson ajan. Vanhemman B vanhempainrahapäivistä 97 jää käyttämättä. Vanhempi A on perhevapaalla 18 kuukautta (saa vanhempainrahaa 160 + 63 päivää ja kotihoidon tukea noin 9 kuukautta) ja palkkatyössä 6 kuukautta. Perheen kahden vuoden aikaiset bruttotulot ovat yhteensä noin 90 630 euroa ja verotuksen jälkeen käteen jäävät nettotulot noin 75 150 euroa.")),
                                                             tags$p(i18n$t("Vaihtoehdoissa 1–3 kuvataan, mitä perheen brutto- ja nettotuloille tapahtuu, jos myös vanhempi B käyttää perhevapaita. Kaikissa vaihtoehdoissa lasta hoidetaan kotona 18 kuukautta.")),
                                                             tags$p(tags$strong(i18n$t("Vaihtoehto"), " 1:"), i18n$t("Vanhempi B käyttää 97 vanhempainrahapäivää. Vanhempi A käyttää kaikki muut vanhempainrahapäivät ja kotihoidon tukea.")),
@@ -385,8 +385,8 @@ a:focus  {
                                                      `aria-labelledby`="flush-headingOne1",
                                                      `data-bs-parent`="#accordionExtra",
                                                      tags$div(class="kds-accordion__body kds-collapse kds-collapse--visible",
-                                                              tags$p(i18n$t("Perhevapaavertailun brutto- ja nettotulojen laskennassa otetaan huomioon vanhempien palkkatulot, vanhempainraha ja kotihoidon tuki. Vanhempainrahan määrä lasketaan vertailuun syötettyjen palkkatulojen perusteella. Pienituloiselle tai tulottomalle vertailussa lasketaan vanhempainrahan vähimmäismäärä (31,99 euroa päivässä vuonna 2024), mutta mahdollisia muita pienituloisen tai tulottoman saamia etuuksia ei oteta huomioon. Vertailu ei siten sovi tilanteisiin, joissa toinen vanhempi on esimerkiksi työttömänä.")),
-                                                              tags$p(i18n$t("Nettotulot lasketaan vähentämällä bruttotuloista verot ja sosiaalivakuutusmaksut. Verojen laskentaa varten tulot jaetaan tasan kahdelle verovuodelle. Verot ja sosiaaliturvamaksut lasketaan vuoden 2024 lainsäädännön ja keskimääräisen kunnallisveroprosentin (7,46 %) mukaan. Kirkollisveroa ei oteta laskennassa huomioon. Laskennassa otetaan huomioon Verohallinnon viran puolesta tekemät vähennykset, mutta ei esimerkiksi työmatkavähennystä.")),
+                                                              tags$p(i18n$t("Perhevapaavertailun brutto- ja nettotulojen laskennassa otetaan huomioon vanhempien palkkatulot, vanhempainraha ja kotihoidon tuki. Vanhempainrahan määrä lasketaan vertailuun syötettyjen palkkatulojen perusteella. Pienituloiselle tai tulottomalle vertailussa lasketaan vanhempainrahan vähimmäismäärä (31,99 euroa päivässä 1.1.2023 alkaen), mutta mahdollisia muita pienituloisen tai tulottoman saamia etuuksia ei oteta huomioon. Vertailu ei siten sovi tilanteisiin, joissa toinen vanhempi on esimerkiksi työttömänä.")),
+                                                              tags$p(i18n$t("Nettotulot lasketaan vähentämällä bruttotuloista verot ja sosiaalivakuutusmaksut. Verojen laskentaa varten tulot jaetaan tasan kahdelle verovuodelle. Verot ja sosiaaliturvamaksut lasketaan vuoden 2025 lainsäädännön ja keskimääräisen kunnallisveroprosentin (7,54 %) mukaan olettaen että taloudessa on yhteishuoltajuudessa yksi lapsi. Kirkollisveroa ei oteta laskennassa huomioon. Laskennassa otetaan huomioon Verohallinnon viran puolesta tekemät vähennykset, mutta ei esimerkiksi työmatkavähennystä.")),
                                                               tags$p(i18n$t("Laskennassa ei oteta huomioon mahdollista työnantajan vanhempainvapaan ajalta maksamaa palkkaa. Laskennassa on oletettu, että vanhemmat eivät käytä vanhempainrahaa yhtä aikaa, vaan toisen vanhemman saadessa etuutta toinen työskentelee ja saa ilmoitettua palkkaa.")),
                                                               tags$p(i18n$t("Vertailun tulokset ovat suuntaa antavia. Perheen todellisiin tuloihin vaikuttavat myös muut kuin tässä käsitellyt palkka- ja perhe-etuustulot. Nettotuloihin vaikuttavat myös esimerkiksi tulojen jaksottuminen verovuosille ja verotuksessa itse ilmoitettavat vähennykset.")),
                                                               tags$p(i18n$t("Voit arvioida perhe-etuuksien tarkkoja määriä ja tuloistasi perittävien sosiaalivakuutusmaksujen ja verojen määriä Kelan ja Verohallinnon laskureiden avulla.")),
