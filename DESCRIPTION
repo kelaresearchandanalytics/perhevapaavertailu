@@ -1,7 +1,7 @@
 Package: perhevapaavertailu
 Title: A shiny application for calculating how sharing family leave between parents can affect your family income
-Version: 1.0.1
-Date: 2025-01-16
+Version: 1.1.1
+Date: 2026-01-14
 Authors@R: c(
     person("Eeva-Maria", "Keski-Säntti", , "eeva-maria.keski-santti@kela.fi", role = c("cre", "aut")),
     person("Petri", "Eskelinen", , "petri.eskelinen@kela.fi", role = "aut"),
@@ -39,4 +39,4 @@ Config/testthat/edition: 3
 Encoding: UTF-8
 Language: en-US
 LazyData: true
-RoxygenNote: 7.3.2
+RoxygenNote: 7.3.3
