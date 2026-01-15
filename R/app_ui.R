@@ -37,8 +37,8 @@ app_ui <- function(request) {
         tags$style(HTML("
         
 body {font-family: 'Lato', sans-serif;
-  border-top: 5px solid #fdb916;
-  border-bottom: 5px solid #fdb916;
+  border-top: 0px solid #fdb916;
+  border-bottom: 0px solid #fdb916;
   margin-bottom: 1rem;
 
 }
@@ -139,26 +139,27 @@ a:focus  {
       #                                 
       tags$html(HTML('<a class="visually-hidden-focusable visually-hidden-focusable-focusable" href="#maincontent">Skip to main</a>')),
       
+      
       tags$html(HTML('<main id="maincontent">')),
       tags$div(class = "row",
                tags$nav(class="navbar navbar-expand g-0", style = "background-color: #003580; height: 4em;",
-                        
-                        tags$ul(class = "d-flex", style = "margin-left: auto; padding-top: 35px; padding-right: 10px;",
+                        tags$html(HTML('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 272.6 132" xml:space="preserve" height="24" width="42"><circle cx="242.9" cy="29.8" r="29.1" fill="#ffffff"></circle><path d="M226.8 7.8h5.8v2.6h7.2V7.8h6v2.7h7.2V7.8h5.7l3.8 41.3h-12.6s-.9-10-.9-9.6c.1.3-.9-5.6-6.5-5.2-5.9 0-6.2 5.8-6.2 5.8l-.8 9H223l3.8-41.3z" fill="#003580"></path><circle cx="242.7" cy="22.4" r="6.2" fill="#ffffff"></circle><path d="m43.8 130.1-26-44.6v44.6H.2V44.6h17.6v39l24.4-39h21.2L36 84.2l30.4 45.9H43.8zm40.4-28.3v.5c0 9.7 4.8 15.3 13.3 15.3 5.7 0 10.9-2.1 16-6.3l6.4 9.8c-7.3 5.9-14.9 8.7-23.7 8.7-18.1 0-29.8-12.8-29.8-32.6 0-11.3 2.3-18.8 7.9-25 5.2-5.8 11.4-8.5 19.8-8.5 7.3 0 14.1 2.5 18.2 6.6 5.8 5.9 8.4 14.4 8.4 27.6v3.8H84.2zM103.6 89c0-4.7-.5-7.1-2-9.5-1.6-2.5-3.9-3.7-7.3-3.7-6.3 0-9.8 4.9-9.8 13.7v.2h19.1V89zm44.9 40.6c-7 0-12.7-3.3-14.6-8.6-1.2-3.2-1.5-5.2-1.5-14.1v-47c0-8.2-.2-13.3-.9-18.9l16.9-3.8c.6 3.4.9 7.5.9 16.4v49.1c0 10.8.1 12.3 1.1 14 .6 1.1 2 1.7 3.3 1.7.6 0 1 0 1.8-.2l2.8 9.8c-2.8.9-6.3 1.6-9.8 1.6zm59.6 2.3c-3.8-1.6-6.9-5-8.5-8.2-1.2 1.2-2.6 2.5-3.8 3.3-3.1 2.2-7.5 3.4-12.7 3.4-14 0-21.6-7.1-21.6-19.7 0-14.8 10.2-21.6 30.3-21.6 1.2 0 2.3 0 3.7.1v-2.6c0-7-1.4-9.3-7.4-9.3-5.3 0-11.4 2.6-18.2 7.1l-7-11.8c3.3-2.1 5.8-3.3 10.2-5.2 6.1-2.6 11.4-3.7 17.2-3.7 10.6 0 17.8 3.9 20.3 10.9.9 2.6 1.2 4.6 1.1 11.3l-.4 21.2c-.1 6.9.4 9.8 5.9 14l-9.1 10.8zm-13.6-31.4c-11.4 0-15.4 2.1-15.4 9.6 0 4.9 3.1 8.2 7.3 8.2 3.1 0 6.2-1.6 8.6-4.3l.2-13.5h-.7z" fill="#ffffff"></path></svg>')),
+                        tags$ul(class = "d-flex", style = "margin-left: auto; padding-top: 35px; padding-right: 10px; list-style-type: none;",
                                 tags$li(
                                   tags$html(HTML('<div style = "padding-top: 13px; padding-right: 12px;"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" class="icon-size-s"><path d="M0 0h24v24H0z" fill="none"></path><circle cx="12" cy="12" r="10" fill="none" stroke="#FFF" stroke-width="2" stroke-miterlimit="10"></circle><path d="M2 12h20" fill="none" stroke="#FFF" stroke-width="2" stroke-miterlimit="10"></path><ellipse cx="12" cy="12" rx="4" ry="10" stroke-linejoin="round" stroke="#FFF" stroke-width="2" fill="none"></ellipse></svg></div>'))
                                 ),
                                 tags$li(
-                                  selectizeInput(inputId = "selected_language", 
-                                                 label = NULL,
-                                                 choices = list("Suomi" = "fi",
-                                                                "Svenska" = "sv",
-                                                                "English" = "en"), 
-                                                 selected = "fi", width = "120px"
+                                  selectizeInput(
+                                    "selected_language",
+                                    label = NULL,
+                                    choices = list("Suomi" = "fi", "Svenska" = "sv", "English" = "en"),
+                                    selected = "fi",
+                                    width = "120px"
                                   )
-                                ))
+                                  ))
                )
       ),
-      tags$div(class  = "row", style = "background-color: #f5f5f5; padding-top: 30px; padding-bottom: 20px",
+      tags$div(class  = "row", style = "background-color: #fff; padding-top: 30px; padding-bottom: 20px",
                tags$div(class = "container_1280",
                         tags$div(class = "row",
                                  tags$div(class="col-md-9",
@@ -170,16 +171,16 @@ a:focus  {
                                           tags$p(class = "lead",
                                                  i18n$t("Vertailu on tarkoitettu työssäkäyville vanhemmille, joiden lapsi on syntynyt 4.9.2022 tai sen jälkeen. Vertailu on suuntaa antava."))
                                  )
-                                 ,tags$div(class="col-md-3",
-                                           tags$html(HTML('<div class = "float-end"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 272.6 132" xml:space="preserve" height="48" width="83"><circle cx="242.9" cy="29.8" r="29.1" fill="#fdb913"></circle><path d="M226.8 7.8h5.8v2.6h7.2V7.8h6v2.7h7.2V7.8h5.7l3.8 41.3h-12.6s-.9-10-.9-9.6c.1.3-.9-5.6-6.5-5.2-5.9 0-6.2 5.8-6.2 5.8l-.8 9H223l3.8-41.3z" fill="#fff"></path><circle cx="242.7" cy="22.4" r="6.2" fill="#fdb913"></circle><path d="m43.8 130.1-26-44.6v44.6H.2V44.6h17.6v39l24.4-39h21.2L36 84.2l30.4 45.9H43.8zm40.4-28.3v.5c0 9.7 4.8 15.3 13.3 15.3 5.7 0 10.9-2.1 16-6.3l6.4 9.8c-7.3 5.9-14.9 8.7-23.7 8.7-18.1 0-29.8-12.8-29.8-32.6 0-11.3 2.3-18.8 7.9-25 5.2-5.8 11.4-8.5 19.8-8.5 7.3 0 14.1 2.5 18.2 6.6 5.8 5.9 8.4 14.4 8.4 27.6v3.8H84.2zM103.6 89c0-4.7-.5-7.1-2-9.5-1.6-2.5-3.9-3.7-7.3-3.7-6.3 0-9.8 4.9-9.8 13.7v.2h19.1V89zm44.9 40.6c-7 0-12.7-3.3-14.6-8.6-1.2-3.2-1.5-5.2-1.5-14.1v-47c0-8.2-.2-13.3-.9-18.9l16.9-3.8c.6 3.4.9 7.5.9 16.4v49.1c0 10.8.1 12.3 1.1 14 .6 1.1 2 1.7 3.3 1.7.6 0 1 0 1.8-.2l2.8 9.8c-2.8.9-6.3 1.6-9.8 1.6zm59.6 2.3c-3.8-1.6-6.9-5-8.5-8.2-1.2 1.2-2.6 2.5-3.8 3.3-3.1 2.2-7.5 3.4-12.7 3.4-14 0-21.6-7.1-21.6-19.7 0-14.8 10.2-21.6 30.3-21.6 1.2 0 2.3 0 3.7.1v-2.6c0-7-1.4-9.3-7.4-9.3-5.3 0-11.4 2.6-18.2 7.1l-7-11.8c3.3-2.1 5.8-3.3 10.2-5.2 6.1-2.6 11.4-3.7 17.2-3.7 10.6 0 17.8 3.9 20.3 10.9.9 2.6 1.2 4.6 1.1 11.3l-.4 21.2c-.1 6.9.4 9.8 5.9 14l-9.1 10.8zm-13.6-31.4c-11.4 0-15.4 2.1-15.4 9.6 0 4.9 3.1 8.2 7.3 8.2 3.1 0 6.2-1.6 8.6-4.3l.2-13.5h-.7z" fill="#004895"></path></svg></div>'))
-                                 )
+#                                 ,tags$div(class="col-md-3"
+#                                           tags$html(HTML('<div class = "float-end"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 272.6 132" xml:space="preserve" height="48" width="83"><circle cx="242.9" cy="29.8" r="29.1" fill="#fdb913"></circle><path d="M226.8 7.8h5.8v2.6h7.2V7.8h6v2.7h7.2V7.8h5.7l3.8 41.3h-12.6s-.9-10-.9-9.6c.1.3-.9-5.6-6.5-5.2-5.9 0-6.2 5.8-6.2 5.8l-.8 9H223l3.8-41.3z" fill="#fff"></path><circle cx="242.7" cy="22.4" r="6.2" fill="#fdb913"></circle><path d="m43.8 130.1-26-44.6v44.6H.2V44.6h17.6v39l24.4-39h21.2L36 84.2l30.4 45.9H43.8zm40.4-28.3v.5c0 9.7 4.8 15.3 13.3 15.3 5.7 0 10.9-2.1 16-6.3l6.4 9.8c-7.3 5.9-14.9 8.7-23.7 8.7-18.1 0-29.8-12.8-29.8-32.6 0-11.3 2.3-18.8 7.9-25 5.2-5.8 11.4-8.5 19.8-8.5 7.3 0 14.1 2.5 18.2 6.6 5.8 5.9 8.4 14.4 8.4 27.6v3.8H84.2zM103.6 89c0-4.7-.5-7.1-2-9.5-1.6-2.5-3.9-3.7-7.3-3.7-6.3 0-9.8 4.9-9.8 13.7v.2h19.1V89zm44.9 40.6c-7 0-12.7-3.3-14.6-8.6-1.2-3.2-1.5-5.2-1.5-14.1v-47c0-8.2-.2-13.3-.9-18.9l16.9-3.8c.6 3.4.9 7.5.9 16.4v49.1c0 10.8.1 12.3 1.1 14 .6 1.1 2 1.7 3.3 1.7.6 0 1 0 1.8-.2l2.8 9.8c-2.8.9-6.3 1.6-9.8 1.6zm59.6 2.3c-3.8-1.6-6.9-5-8.5-8.2-1.2 1.2-2.6 2.5-3.8 3.3-3.1 2.2-7.5 3.4-12.7 3.4-14 0-21.6-7.1-21.6-19.7 0-14.8 10.2-21.6 30.3-21.6 1.2 0 2.3 0 3.7.1v-2.6c0-7-1.4-9.3-7.4-9.3-5.3 0-11.4 2.6-18.2 7.1l-7-11.8c3.3-2.1 5.8-3.3 10.2-5.2 6.1-2.6 11.4-3.7 17.2-3.7 10.6 0 17.8 3.9 20.3 10.9.9 2.6 1.2 4.6 1.1 11.3l-.4 21.2c-.1 6.9.4 9.8 5.9 14l-9.1 10.8zm-13.6-31.4c-11.4 0-15.4 2.1-15.4 9.6 0 4.9 3.1 8.2 7.3 8.2 3.1 0 6.2-1.6 8.6-4.3l.2-13.5h-.7z" fill="#004895"></path></svg></div>'))
+#                                 )
                         )
                )),
       # Nootti alkaa!!
       tags$div(class = "container_1280", style = "padding-top: 20px; ",
                tags$div(class="kds-theme-kela kds-alert kds-alert--icon-left kds-alert--primary col-md-8",
                         tags$html(HTML('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" class="kds-alert__icon kds-icon kds-icon--size-s"><path fill="none" d="M0 0h24v24H0z"></path><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="2"></circle><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M12 17v-6"></path><circle cx="12" cy="7" r="0.3" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="2"></circle></svg>')),
-                        tags$div(class="kds-alert__content", "16.1.2025 |", i18n$t("Perhevapaavertailu on päivitetty vuodelle 2025.")
+                        tags$div(class="kds-alert__content", "9.1.2026 |", i18n$t("Perhevapaavertailu on päivitetty vuodelle 2026.")
                         )
                )
       ),
@@ -386,7 +387,7 @@ a:focus  {
                                                      `data-bs-parent`="#accordionExtra",
                                                      tags$div(class="kds-accordion__body kds-collapse kds-collapse--visible",
                                                               tags$p(i18n$t("Perhevapaavertailun brutto- ja nettotulojen laskennassa otetaan huomioon vanhempien palkkatulot, vanhempainraha ja kotihoidon tuki. Vanhempainrahan määrä lasketaan vertailuun syötettyjen palkkatulojen perusteella. Pienituloiselle tai tulottomalle vertailussa lasketaan vanhempainrahan vähimmäismäärä (31,99 euroa päivässä 1.1.2023 alkaen), mutta mahdollisia muita pienituloisen tai tulottoman saamia etuuksia ei oteta huomioon. Vertailu ei siten sovi tilanteisiin, joissa toinen vanhempi on esimerkiksi työttömänä.")),
-                                                              tags$p(i18n$t("Nettotulot lasketaan vähentämällä bruttotuloista verot ja sosiaalivakuutusmaksut. Verojen laskentaa varten tulot jaetaan tasan kahdelle verovuodelle. Verot ja sosiaaliturvamaksut lasketaan vuoden 2025 lainsäädännön ja keskimääräisen kunnallisveroprosentin (7,54 %) mukaan olettaen että taloudessa on yhteishuoltajuudessa yksi lapsi. Kirkollisveroa ei oteta laskennassa huomioon. Laskennassa otetaan huomioon Verohallinnon viran puolesta tekemät vähennykset, mutta ei esimerkiksi työmatkavähennystä.")),
+                                                              tags$p(i18n$t("Nettotulot lasketaan vähentämällä bruttotuloista verot ja sosiaalivakuutusmaksut. Verojen laskentaa varten tulot jaetaan tasan kahdelle verovuodelle. Verot ja sosiaaliturvamaksut lasketaan vuoden 2026 lainsäädännön ja keskimääräisen kunnallisveroprosentin (7,57 %) mukaan olettaen että taloudessa on yhteishuoltajuudessa yksi lapsi. Kirkollisveroa ei oteta laskennassa huomioon. Laskennassa otetaan huomioon Verohallinnon viran puolesta tekemät vähennykset, mutta ei esimerkiksi työmatkavähennystä.")),
                                                               tags$p(i18n$t("Laskennassa ei oteta huomioon mahdollista työnantajan vanhempainvapaan ajalta maksamaa palkkaa. Laskennassa on oletettu, että vanhemmat eivät käytä vanhempainrahaa yhtä aikaa, vaan toisen vanhemman saadessa etuutta toinen työskentelee ja saa ilmoitettua palkkaa.")),
                                                               tags$p(i18n$t("Vertailun tulokset ovat suuntaa antavia. Perheen todellisiin tuloihin vaikuttavat myös muut kuin tässä käsitellyt palkka- ja perhe-etuustulot. Nettotuloihin vaikuttavat myös esimerkiksi tulojen jaksottuminen verovuosille ja verotuksessa itse ilmoitettavat vähennykset.")),
                                                               tags$p(i18n$t("Voit arvioida perhe-etuuksien tarkkoja määriä ja tuloistasi perittävien sosiaalivakuutusmaksujen ja verojen määriä Kelan ja Verohallinnon laskureiden avulla.")),

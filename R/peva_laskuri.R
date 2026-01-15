@@ -30,8 +30,58 @@ viitospyoristys <- function(x, n = 0){
 #' @param vuosi year
 #' @keywords internal
 #' @noRd
-get_parameter_year <- function(vuosi = 2024){
+get_parameter_year <- function(vuosi = 2026){
   yamli <- '
+- vuosi: 2026
+  pyor: -1
+# vpr:n päivien määrään liittyvät parametrit (näihin tulee muutoksia vain, jos lakiin tulee muutoksia)
+  max_oma: 223
+  vpr_oma: 160
+  max_jakamaton: 97
+  korotetut: 16
+# prosenttivähennyksen vähennysprosentti
+  vahpros: 0.0907
+# päivärahakaavojen taitteiden rajatulot ja minimi
+  raja1_90: 70379
+  raja1_70: 45744
+  raja2_70: 70379
+  minimi: 31.99
+  vanh1_ika: 30
+  vanh2_ika: 30
+  lapsi_lkm_yksin: 0
+  lapsi_lkm_yhteis: 1
+  vanh1_kirkollisvero: 0
+  vanh2_kirkollisvero: 0
+  #keskimääräinen kunnallisveroprosentti vuonna 2026 on 7,57
+  vanh1_kunnallisvero: 0.0757
+  vanh2_kunnallisvero: 0.0757
+  vanh1_elaketulo: 0
+  vanh2_elaketulo: 0
+- vuosi: 2025
+  pyor: -1
+# vpr:n päivien määrään liittyvät parametrit (näihin tulee muutoksia vain, jos lakiin tulee muutoksia)
+  max_oma: 223
+  vpr_oma: 160
+  max_jakamaton: 97
+  korotetut: 16
+# prosenttivähennyksen vähennysprosentti
+  vahpros: 0.0858
+# päivärahakaavojen taitteiden rajatulot ja minimi
+  raja1_90: 68776
+  raja1_70: 44702
+  raja2_70: 68776
+  minimi: 31.99
+  vanh1_ika: 30
+  vanh2_ika: 30
+  lapsi_lkm_yksin: 0
+  lapsi_lkm_yhteis: 1
+  vanh1_kirkollisvero: 0
+  vanh2_kirkollisvero: 0
+  #keskimääräinen kunnallisveroprosentti vuonna 2025 on 7,54
+  vanh1_kunnallisvero: 0.0754
+  vanh2_kunnallisvero: 0.0754
+  vanh1_elaketulo: 0
+  vanh2_elaketulo: 0
 - vuosi: 2024
   pyor: -1
 # vpr:n päivien määrään liittyvät parametrit (näihin tulee muutoksia vain, jos lakiin tulee muutoksia)
@@ -122,7 +172,7 @@ get_parameter_year <- function(vuosi = 2024){
 #' @keywords internal
 #' @noRd
 which_options_to_compute <- function(home_care_months = 18, 
-                                     year_params = get_parameter_year(vuosi = 2024)){
+                                     year_params = get_parameter_year(vuosi = 2026)){
   
   optios_to_be_computed <- vector()
   optios_to_be_computed <- 0
@@ -145,7 +195,7 @@ which_options_to_compute <- function(home_care_months = 18,
 #' @noRd
 compute_days <- function(opt_nr = 0,
                          param_user = parameter_user,
-                         param_year = get_parameter_year(vuosi = 2024)
+                         param_year = get_parameter_year(vuosi = 2026)
 ){
   
   
@@ -180,9 +230,11 @@ compute_days <- function(opt_nr = 0,
     
     dat$brutto_salary_per_year <- brutto_salary_per_year
     dat$brutto_benefit_per_year <- brutto_benefit_per_year
-    resdat <- henkiloverotus_2024(
+    resdat <- henkiloverotus_2026(
       dat,
       vanh1_ika,
+      lapsi_lkm_yksin,
+      lapsi_lkm_yhteis,
       vanh1_kunnallisvero,
       vanh1_kirkollisvero,
       vanh1_elaketulo,
@@ -406,7 +458,7 @@ compute_days <- function(opt_nr = 0,
 #' @noRd
 compute_options_final <- function(option_to_compute = NULL, 
                                   param_user = parameter_user,
-                                  param_year = get_parameter_year(vuosi = 2024)){
+                                  param_year = get_parameter_year(vuosi = 2026)){
   
   lst_grand <- list()
   
